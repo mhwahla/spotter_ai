@@ -1,0 +1,69 @@
+{
+  "main_model": "ridge_full",
+  "december_model": "boosting_core",
+  "selection_metrics": {
+    "ridge_full": {
+      "MAE": 148.09398598142596,
+      "RMSE": 625.6049827586646,
+      "Median error": 72.24260780657119,
+      "MAPE (%)": 6.362203073587394
+    },
+    "boosting_full": {
+      "MAE": 148.39309595213953,
+      "RMSE": 630.6428248960409,
+      "Median error": 57.08155907044443,
+      "MAPE (%)": 6.540025688290739
+    },
+    "boosting_core": {
+      "MAE": 152.99348671755254,
+      "RMSE": 626.8756693124634,
+      "Median error": 74.22168967871676,
+      "MAPE (%)": 6.428318685408844
+    },
+    "ridge_core": {
+      "MAE": 188.03085675516482,
+      "RMSE": 634.1269639042299,
+      "Median error": 107.88703677733201,
+      "MAPE (%)": 8.174915520817262
+    },
+    "baseline": {
+      "MAE": 249.0120064390102,
+      "RMSE": 674.7181174548526,
+      "Median error": 135.52604231832402,
+      "MAPE (%)": 11.163395245139093
+    }
+  },
+  "internal_test_metrics": {
+    "baseline": {
+      "MAE": 256.95293879821725,
+      "RMSE": 684.247911313515,
+      "Median error": 139.17987190620897,
+      "MAPE (%)": 11.631462355075119
+    },
+    "ridge_full": {
+      "MAE": 124.28454334898929,
+      "RMSE": 638.131905621145,
+      "Median error": 46.59403458085126,
+      "MAPE (%)": 5.303260765138793
+    },
+    "boosting_core": {
+      "MAE": 119.65767416634704,
+      "RMSE": 637.4494839647555,
+      "Median error": 43.22102880313673,
+      "MAPE (%)": 5.161033920864744
+    }
+  },
+  "mae_improvement_percent": 51.63139836801447,
+  "december_min": 786.9165800725046,
+  "december_max": 809.2858435401689,
+  "december_mean": 795.5933766578955,
+  "package_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.14.1",
+    "matplotlib": "3.9.4",
+    "joblib": "1.6.0",
+    "reportlab": "5.0.1"
+  }
+}
